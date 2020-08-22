@@ -1,6 +1,6 @@
 //Please add a comment to each lines that has changes and Indicate the changes
-#include<stdoi.h>
-char main()
+#include<stdio.h> \\changed to stdio\\
+ main() \\removed char
 {	char a,b,c,mx,mi;
 	scanf("%f%f%f",&a,&b,&c);
 	printf("\t%s\t%s\t%s",a,b,c);
